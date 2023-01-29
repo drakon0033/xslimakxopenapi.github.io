@@ -7,9 +7,9 @@
 	background-color: #000000;
 }
 a {
-	text-decoration: none;
+	text-decoration: underline dotted purple;
 	color: rgb(255, 255, 255);
-	font-size: 1vw;
+	font-size: 2vw;
 	font-family: Calibri;
 	font-weight: bold;
 }
@@ -26,15 +26,17 @@ a:hover {
 }
 
 .nickname {
-	margin-top: 3vw !important;
-	font-size: 5vw;
-	font-family: sans-serif;
+	margin-top: 1vw !important;
+	font-size: 8vw;
+	font-family: Georgia, serif;
 	color: white;
 }
 
 .about ul {
 	display:flex;
-	width: 100%;
+	 width: 100px;
+     height: 320px;
+	width: 90%;
 }
 
 .avatar {
@@ -71,4 +73,20 @@ a:hover {
 	max-height: 100%;
 	overflow: none;
 	display: table;
+}
+.bobs {
+	color: rgb(255, 56, 122);
+	position: absolute;
+	left: 1100;
+	right: 0;
+	top: 340;
+	bottom: 0;
+	margin: auto;
+	max-width: 1%;
+	max-height: 1%;
+	overflow: visible;
+	display: table;
+    font-size: calc(5px);
+	font-family: Calibri;
+	font-weight: bold;
 }
